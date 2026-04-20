@@ -3,7 +3,7 @@
     src: url(font/Roboto-VariableFont_wdth\,wght.ttf);
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", 'Segoe UI', sans-serif;
     margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
     background-color: #1F2937;
     flex-direction: column;
     justify-content: center;
-    padding: 18px 200px 150px;
+    padding: 18px 300px 150px;
 }
 
 .hero-links {
@@ -28,7 +28,6 @@ body {
     gap: 80px;
 }
 
-
 .secondary-hero {
     display: flex;
     justify-content: center;
@@ -39,7 +38,7 @@ body {
 
 .image img {
     display: block;
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
     height: auto;
 }
@@ -79,12 +78,15 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    width: 120px;
+    max-width: 135px;
+    width: 100%;
     justify-content: center;
+    align-items: center;
     font-size: 16px;
     border: none;
     border-radius: 8px;
     padding: 8px;
+    font-weight: 700;
 }
 
 .title {
@@ -118,6 +120,7 @@ button {
 
 .box-text {
     text-align: center;
+    margin-top: 4px;
 }
 
 .middle {
@@ -137,6 +140,7 @@ button {
     flex-direction: column;
     width: 700px;
 }
+
 .words {
     font-size: 36px;
     font-weight: 300;
@@ -149,3 +153,52 @@ button {
     align-self: flex-end;
 }
 
+.action {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 120px;
+    padding: 18px;
+    flex-wrap: wrap;
+}
+
+.action-box button {
+    border: 2px solid white;
+    height: 36px;
+    flex: none;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-text p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+}
